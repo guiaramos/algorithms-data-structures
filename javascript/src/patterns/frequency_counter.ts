@@ -1,9 +1,9 @@
 
 /**
- * Same gets two array and compares if the second array represents the square number of the first array
+ * sameArraySquared gets two array and compares if the second array represents the square number of the first array
  * Time complexity: O(n)
  * */
-function same (firstArray: number[], secondArray: number[]) {
+function sameArraySquared (firstArray: number[], secondArray: number[]) {
   // check if the array have same length
   if (firstArray.length !== secondArray.length) { return false }
 
@@ -30,4 +30,4 @@ function same (firstArray: number[], secondArray: number[]) {
   return true
 }
 
-export { same }
+export { sameArraySquared }
