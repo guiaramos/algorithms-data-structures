@@ -1,8 +1,5 @@
 // validAnagram checks if two words is an anagram O(n)
 function validAnagram (firstString: string, secondString: string): Boolean {
-  // Check if both are empty
-  if (firstString === '' && secondString === '') { return true }
-
   // Check if the length of both strings are same
   if (firstString.length !== secondString.length) { return false }
 
