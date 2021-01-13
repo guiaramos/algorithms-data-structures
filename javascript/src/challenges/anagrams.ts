@@ -11,7 +11,7 @@ function validAnagram (firstString: string, secondString: string): Boolean {
     frequencyObj[letter] = (frequencyObj[letter] | 0) + 1
   }
 
-  // Iterate thru te first frequency object
+  // Iterate thru the secondString
   for (const letter of secondString) {
     // Check if the the letter exists on second frequency object
     if (!frequencyObj[letter]) { return false } else { frequencyObj[letter] -= 1 }
