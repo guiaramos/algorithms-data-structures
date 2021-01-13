@@ -1,4 +1,4 @@
-import { sameArraySquared } from './frequency_counter'
+import { sameArraySquared } from './frequency-counter'
 
 describe('Frequency Counter Pattern', () => {
   it('should return false if length of the arrays are different', () => {
