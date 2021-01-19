@@ -1,4 +1,4 @@
-import { sumZero } from './multiple-pointers'
+import { sumZero } from './multiple_pointers'
 
 describe('Multiple Pointers Pattern', () => {
     it('should return undefined on empty array', () => {
